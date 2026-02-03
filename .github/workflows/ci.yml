@@ -30,4 +30,4 @@ jobs:
                 echo "Despliegue simulado: la aplicacion pasa el lint y las pruebas correctamente."
                 
             - name: Build
-              run: npm run ci && npm run build
+              run: npm ci

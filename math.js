@@ -6,8 +6,6 @@ function EsPrimo(num) {
     return true;
 }
 
-module.exports = EsPrimo;
-
 function EsPerfecto(num){
     let suma = 0;
     for(let i = 1; i <= num / 2; i++){
@@ -17,4 +15,4 @@ function EsPerfecto(num){
     }
     return suma === num;    
 }
-module.exports = EsPerfecto;
+module.exports = { EsPrimo, EsPerfecto };
